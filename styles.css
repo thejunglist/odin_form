@@ -1,3 +1,32 @@
-body{background-image: url('images/cactuses.jpg');
-    background-size:cover;
-    background-position: center;}
+body {
+  background-image: url("images/cat.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 300px;
+  z-index: -1;
+}
+
+.form {
+  float: left;
+  background-color: rgb(152, 216, 213);
+  width: 100vh;
+  height: 100vh;
+  margin-top: -300px;
+  margin-left: -300px;
+}
+
+.form-style {
+  padding: 5px;
+  background-color: antiquewhite;
+  box-shadow: 1px;
+  padding: 10px;
+}
+
+.banner {
+  font-family: "Franklin Gothic Medium";
+}
+
+input,
+label {
+  display: block;
+}
