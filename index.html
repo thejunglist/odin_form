@@ -9,8 +9,10 @@
 </head>
 
 <body>
-    <div class="banner banner-image banner-text">
-        <p class='banner-text'>Cat News</p>
+    <h1 class="banner-text">Cat News</h1>
+    <div class="banner banner-image" >
+        <div class="banner-text"><p>Cat News</p></div>
+        
     </div>
     <div class="form">
         <form action="">
@@ -19,6 +21,7 @@
                 This form lets you sign up to get the latest Cat news and gossip. <br />All we need is
                 your email address and you can sign up for a free membership.
             </p>
+            
             <div action="Post">
                 <div class="form-style">
                     <div class="form-style">
@@ -30,11 +33,11 @@
                         <input type="email" name="email" id="email" required />
                     </div>
                     <div class="form-style"><label for="password">Choose a password:</label><input type="password"
-                            name="password" id=""></div>
+                            name="password" id="password" required></div>
                     <div class="form-style"><label for="password-retype">Enter your password again:</label><input
-                            type="password" name="password-retype" id=""></div>
+                            type="password" name="password-retype" id="password-retype" required></div>
                     <div class="form-style">
-                        <input type="submit" value="Sign up!" class="button" />
+                        <input type="submit" value="Sign up!" aria-label="submit buttton" class="button" />
                     </div>
         </form>
     </div>
