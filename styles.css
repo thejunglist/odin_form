@@ -42,6 +42,8 @@ div.banner-image {
 input,
 label {
   display: block; 
+  border-radius: 5px;
+  
 }
 
 .button {
